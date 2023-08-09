@@ -2,7 +2,7 @@
 
 set(REV_PKG_NAME "revtest01")
 set(REV_TEST1_VERSION 1.0.0)
-set(GIT_VCPKG https://github.com/seycho/revtest01)
+set(GIT_VCPKG https://github.com/seycho)
 
 #vcpkg_download_distfile(ARCHIVE
 #    URLS
