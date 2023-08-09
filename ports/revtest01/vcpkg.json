@@ -4,8 +4,12 @@
   "description": "rev test01: Painter example with OpenCV 1.0.2",
   "homepage": "https://www.gnu.org/software/paintocv",
   "supports": "!(arm | uwp)",
-  "dependencies": [
-    {"name": "opencv4", "version>=": "4.5.0"},
-    {"name": "boost-array", "version>=": "1.71.0"}
+  "dependencies" : [
+    "opencv4",
+    "boost-array"
+  ],
+  "overrides": [
+    {"name": "opencv4", "version": "4.5.0"},
+    {"name": "boost-array", "version": "1.71.0"}
   ]
 }
