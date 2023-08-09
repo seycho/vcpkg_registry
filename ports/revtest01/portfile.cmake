@@ -1,7 +1,7 @@
 #vim:ts=4:
 
 set(REV_PKG_NAME "revtest01")
-set(REV_TEST1_VERSION 1.0.0)
+set(REV_TEST1_VERSION 1.0.1)
 set(GIT_VCPKG https://github.com/seycho)
 
 #vcpkg_download_distfile(ARCHIVE
@@ -26,7 +26,7 @@ message("==================================================")
 vcpkg_from_git(
 	OUT_SOURCE_PATH SOURCE_PATH
 	URL ${GIT_VCPKG}/${REV_PKG_NAME}
-	REF 5874a76382ce25b6d3dcb0277ffafadf9e973c1b
+	REF 788b2503b1aa0b695d50772d7599a3350594c235
 )
 
 
