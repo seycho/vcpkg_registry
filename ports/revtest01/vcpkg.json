@@ -1,10 +1,11 @@
 {
   "name": "revtest01",
-  "version": "1.0.1",
-  "description": "rev test01: Painter example with OpenCV 1.0.0",
+  "version": "1.0.2",
+  "description": "rev test01: Painter example with OpenCV 1.0.2",
   "homepage": "https://www.gnu.org/software/paintocv",
   "supports": "!(arm | uwp)",
   "dependencies": [
-	"opencv"
+    {"name": "opencv4", "version": "4.5.0"},
+    {"name": "boost-array", "version-string": "1.71.0"}
   ]
 }
