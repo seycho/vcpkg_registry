@@ -5,11 +5,9 @@
   "homepage": "https://www.gnu.org/software/paintocv",
   "supports": "!(arm | uwp)",
   "dependencies" : [
-    {"name": "opencv4", "version>=": "4.5.0"},
-    {"name": "boost-array", "version>=": "1.71.0"},
-    {"name": "beison", "version>=": "1.0.0"}
+    "opencv4", "boost-array", "beison"
   ],
-  "builtin-baseline": "ab079eba3a714bbf831204905224c64906f2d5e8",
+  "builtin-baseline": "918958be223a7faa1221c27e8416bde50e3b7793",
   "overrides": [
     {"name": "opencv4", "version": "4.5.0"},
     {"name": "boost-array", "version": "1.71.0"},
