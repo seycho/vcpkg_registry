@@ -6,6 +6,7 @@
 	"dependencies": [
 		{"name": "beicode", "version>=": "1.0.0"}
 	],
+	"builtin-baseline": "6baeedb354b7aac27a3d2ee7421cdc1f035c3daa",
 	"overrides": [
 		{"name": "beicode", "version": "1.0.0"}
 	]
