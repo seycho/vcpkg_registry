@@ -6,10 +6,12 @@
   "supports": "!(arm | uwp)",
   "dependencies" : [
     {"name": "opencv4", "version>=": "4.5.0"},
-    {"name": "boost-array", "version>=": "1.71.0"}
+    {"name": "boost-array", "version>=": "1.71.0"},
+    {"name": "beison", "version>=": "1.0.0"}
   ],
   "overrides": [
     {"name": "opencv4", "version": "4.5.0"},
-    {"name": "boost-array", "version": "1.71.0"}
+    {"name": "boost-array", "version": "1.71.0"},
+    {"name": "beison", "version": "1.0.0"}
   ]
 }
