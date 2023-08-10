@@ -1,12 +1,12 @@
 {
 	"name": "beison",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "A simple json parsing and stringifying library",
 	"homepage": "https://github.com/northwindtraders/beison",
 	"dependencies": [
 		{"name": "beicode", "version>=": "1.0.0"}
 	],
-	"builtin-baseline": "6baeedb354b7aac27a3d2ee7421cdc1f035c3daa",
+	"builtin-baseline": "6c583c71b3f5bab498f0a9715a559818e6a3b97f",
 	"overrides": [
 		{"name": "beicode", "version": "1.0.0"}
 	]
