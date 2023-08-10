@@ -7,7 +7,7 @@
   "dependencies" : [
     "opencv4", "boost-array", "beison"
   ],
-  "builtin-baseline": "918958be223a7faa1221c27e8416bde50e3b7793",
+  "builtin-baseline": "02865ec99e0714d089636e66cc4dd1fc22282f84",
   "overrides": [
     {"name": "opencv4", "version": "4.5.0"},
     {"name": "boost-array", "version": "1.71.0"},
