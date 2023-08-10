@@ -5,7 +5,7 @@
   "homepage": "https://www.gnu.org/software/paintocv",
   "supports": "!(arm | uwp)",
   "dependencies" : [
-    {"name": "opencv4", "version==": "4.5.0"},
-    {"name": "boost-array", "version==": "1.71.0"}
+    {"name": "opencv4", "version=": "4.5.0"},
+    {"name": "boost-array", "version=": "1.71.0"}
   ]
 }
