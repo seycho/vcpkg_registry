@@ -4,6 +4,9 @@
 	"description": "A simple json parsing and stringifying library",
 	"homepage": "https://github.com/northwindtraders/beison",
 	"dependencies": [
-		"beicode"
+		{"name": "beicode", "version>=": "1.0.0"}
+	]
+	"overrides": [
+		{"name": "beicode", "version": "1.0.0"}
 	]
 }
