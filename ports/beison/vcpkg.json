@@ -5,7 +5,7 @@
 	"homepage": "https://github.com/northwindtraders/beison",
 	"dependencies": [
 		{"name": "beicode", "version>=": "1.0.0"}
-	]
+	],
 	"overrides": [
 		{"name": "beicode", "version": "1.0.0"}
 	]
