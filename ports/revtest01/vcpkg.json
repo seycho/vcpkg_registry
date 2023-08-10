@@ -9,6 +9,7 @@
     {"name": "boost-array", "version>=": "1.71.0"},
     {"name": "beison", "version>=": "1.0.0"}
   ],
+  "builtin-baseline": "06cadda9e4cec1a28119b7860458c29b406d6a4c",
   "overrides": [
     {"name": "opencv4", "version": "4.5.0"},
     {"name": "boost-array", "version": "1.71.0"},
