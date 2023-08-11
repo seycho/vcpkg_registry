@@ -4,22 +4,6 @@
   "description": "rev test01: Painter example with OpenCV 1.0.2",
   "homepage": "https://www.gnu.org/software/paintocv",
   "supports": "!(arm | uwp)",
-  "dependencies": [
-    "opencv4",
-    "beison",
-    {
-      "name": "fmt",
-      "version>=": "7.1.3#1"
-    },
-    {
-      "name": "zlib",
-      "version>=": "1.2.11#7"
-    }
-  ],
-  "builtin-baseline": "3426db05b996481ca31e95fff3734cf23e0f51bc",
-  "overrides": [
-    {"name": "beison", "version": "1.0.2"},
-    {"name": "opencv4", "version": "4.5.0"},
-    {"name": "fmt", "version": "6.0.0"}
-  ]
+  "builtin-baseline": "787fe1418ea968913cc6daf11855ffd8b0b5e9d4",
+  "dependencies": [ "boost-tuple" ]
 }
